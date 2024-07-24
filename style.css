@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    font-family: 'Poppins';
+}
+.card {
+    width: 90%;
+    height: 254px;
+    margin: 0 auto;
+    background-color: #F8FBFE;
+    border-radius: 8px;
+    z-index: 1;
+   }
+   
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circle {
+    padding: 0 4px;
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+   }
+   
+.contact{
+    width: 80%;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 5%;
+    text-align: center;
+}
+.contact h2{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 35px;
+}
+.contact p{
+    color: rgb(92, 91, 91);
+}
+.contact form{
+    margin-top: 25px;
+}
+
+.child-form{
+    text-align: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.child-form label,
+textarea{
+    display: block;
+    margin-bottom: 5px;
+}
+.child-form input,
+textarea,
+select{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 94%;
+    padding: 3%;
+    font-family: 'Poppins';
+}
+.child-form select{
+    width: 100%;
+}
+button {
+    font-size: 18px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  
+  button:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+  }
+  
+  button:active {
+    box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+    transform: translateY(0em);
+  }
